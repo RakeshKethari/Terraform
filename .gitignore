@@ -35,3 +35,21 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+
+
+# Exclude private SSH keys and output
+terraform-key.pem
+
+# Ignore backup & override files
+*.backup
+
+# Exclude any sensitive output
+*.pem
+
+# Ignore plan output files
+*.plan
+
+# Ignore .DS_Store (macOS)
+.DS_Store
